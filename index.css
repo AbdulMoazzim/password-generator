@@ -1,0 +1,94 @@
+.password {
+    width: 70vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.text {
+    padding: 0 10px;
+    height: 55px;
+    width: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pass {
+    border: 0;
+    font-size: 40px;
+    width: 540px;
+}
+.radiobuttons {
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    padding: 15px 0;
+
+}
+
+.num {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.num label {
+    font-size: 50px;
+    padding-right: 35px;
+}
+
+.num input {
+    padding: 15px 30px;
+    font-size: 50px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.condition {
+    font-size: 30px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.copy {
+    background-color: white;
+    border: 0;
+    padding-left: 30px;
+}
+
+.textDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDiv span {
+    padding-left: 10px;
+}
+
